@@ -1,6 +1,6 @@
 
 
-<div align="center"> <img src="/resources/icon.gif" width="250px" height="250px"/> <h1 align="center">Freedom Launcher</h1> <p align="center"> <strong>A lightweight game launcher with built-in torrent support and customizable UI.</strong> </p> </div>
+<div align="center"> <img src="/Main_App/resources/icon.gif" width="250px" height="250px"/> <h1 align="center">Freedom Launcher</h1> <p align="center"> <strong>A lightweight game launcher with built-in torrent support and customizable UI.</strong> </p> </div>
 
 ---
 
@@ -15,11 +15,11 @@ The app allows users to efficiently manage games, customize the appearance, modi
 
 ### Main Screen
 
-> ![Main-Screen](./resources/Freedom.gif)
+> ![Main-Screen](./Main_App/resources/Freedom.gif)
 
 ### Application in Action
 
-> ![Demo](./resources/fullFreedom.gif)
+> ![Demo](./Main_App/resources/fullFreedom.gif)
 
 ---
 
