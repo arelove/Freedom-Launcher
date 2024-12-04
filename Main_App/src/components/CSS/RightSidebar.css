@@ -1,0 +1,7 @@
+/* src/components/CSS/RightSidebar.css */
+.right-sidebar {
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+    background-color: transparent;
+  }
+  

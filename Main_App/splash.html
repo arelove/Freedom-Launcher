@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freedom</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: 'transparent';
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      overflow: 'hidden';
+    }
+    .splash-container {
+      text-align: center;
+      background: radial-gradient(circle, rgba(36,36,36,1) 0%, rgba(0,0,0,1) 80%);
+      border-radius: 20px;
+      width: 600px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      position: relative;
+    }
+    .splash-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      background: linear-gradient(45deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+      z-index: 0;
+    }
+    .splash-container h1 {
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 8px;
+      z-index: 1;
+      text-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    }
+    .spinner {
+      border: 6px solid rgba(255, 255, 255, 0.1);
+      border-top-color: #ffffff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s ease-in-out infinite;
+      margin: 30px auto;
+      z-index: 1;
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .splash-container a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.2em;
+      margin-top: 20px;
+      z-index: 1;
+      transition: color 0.3s ease;
+    }
+    .splash-container a:hover {
+      color: #f0c040;
+    }
+    .github-icon {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      z-index: 1;
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.8em;
+      z-index: 1;
+    }
+    .footer::after {
+      content: '...';
+      animation: dots 1.5s steps(3, end) infinite;
+    }
+    @keyframes dots {
+      0%, 20% {
+        content: '';
+      }
+      40% {
+        content: '.';
+      }
+      60% {
+        content: '..';
+      }
+      80%, 100% {
+        content: '...';
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="splash-container">
+    <h1>FREEDOM</h1>
+    <div class="spinner"></div>
+    <a href="https://github.com/arelove" target="_blank" class="github-icon">
+      <img src="/icons/set-ups/icons8-github-64.png" style="height: 40px;">
+    </a>
+    <div class="footer">Loading, please wait</div>
+  </div>
+</body>
+</html>

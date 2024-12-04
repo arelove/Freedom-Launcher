@@ -1,0 +1,73 @@
+/* src/components/CSS/BottomMenu.css */
+.bottom-menu {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный черный*/
+
+    }
+    
+.drawer {
+    width: 100%; /* Ширина меню */
+    flex-shrink: 0;
+    white-space: nowrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    z-index: 1200;
+}
+
+
+
+.drawerClose {
+    transform: translateY(100%); /* Скрытие за пределами экрана */
+}
+
+.drawerPaper {
+    width: 60%;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 20%;
+    overflow: hidden;
+}
+
+.toggleButton {
+    position: fixed;
+    left: 49%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1300;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+}
+
+.toggleButtonOpen {
+    transform: translateY(-50%) rotate(630deg);
+}
+
+.toggleButtonClose {
+    transform: translateY(20%) rotate(270deg);
+    background-color: rgba(0, 0, 0, 0.1); /* для персонализации */
+}
+
+.listItem {
+    padding: 20%;
+}
+
+.listItem:hover {
+    background-color: #5c6bc0;
+}

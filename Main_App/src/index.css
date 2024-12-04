@@ -1,0 +1,39 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg, #6b0f1a, #b91372, #380036);
+    backdrop-filter: blur(10px);
+    color: white;
+  } */
+  
+  /* Основные стили для скрытого меню */
+.sidebar {
+  position: fixed;
+  left: -200px; /* начальное скрытие меню */
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #333;
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+/* Стиль при наведении на край экрана */
+.sidebar:hover {
+  left: 0;
+}
+
+/* Полоса для наведения */
+.hover-area {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 10px; /* узкая область для наведения */
+  height: 100%;
+  z-index: 999;
+}

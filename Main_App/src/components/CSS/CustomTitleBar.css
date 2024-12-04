@@ -1,0 +1,60 @@
+* {
+  line-height: initial; /* Устанавливаем стандартное значение line-height */
+}
+
+.custom-titlebar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Фиксируем заголовок */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Убедитесь, что заголовок находится поверх всех других элементов */
+}
+
+.custom-titlebar {
+  flex: 1; /* Заголовок занимает всю доступную ширину */
+  background-color: transparent; /* Убираем кавычки */
+  color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  cursor: grab;
+}
+
+.titlebar-content {
+  flex: 1;
+}
+
+.titlebar-title {
+  text-align: left; /* Заголовок выравнивается по левому краю */
+}
+
+.titlebar-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background-color: transparent; /* Убираем кавычки */
+  height: 35px;
+  padding-right: 7px;
+}
+
+.titlebar-controls button {
+  color: #fff;
+  transform: scale(0.8);
+}
+
+/* Эффект размытия фона */
+.custom-titlebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Убираем кавычки */
+  backdrop-filter: blur(1px); /* Эффект размытия */
+  z-index: -1; /* Фон должен быть позади содержимого */
+}
