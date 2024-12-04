@@ -15,11 +15,11 @@ The app allows users to efficiently manage games, customize the appearance, modi
 
 ### Main Screen
 
-> ![Main-Screen](./Main_App/resources/Freedom.gif)
+> <img src="/Main_App/resources/Freedom.gif"/> 
 
 ### Application in Action
 
-> ![Demo](./Main_App/resources/fullFreedom.gif)
+> <img src="/Main_App/resources/fullFreedom.gif"/> 
 
 ---
 
