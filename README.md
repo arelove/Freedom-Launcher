@@ -15,7 +15,7 @@ The app allows users to efficiently manage games, customize the appearance, modi
 
 ### Main Screen
 
-<img src="/resources/Freedom.gif"/> 
+https://github.com/user-attachments/assets/10cfd89c-5611-4b32-a729-6a8ce008bca2
 
 ### Application in Action
 
