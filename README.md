@@ -5,7 +5,7 @@
             preload="auto"
             autoPlay
             playsInline
-            src={/resources/icon.gif}
+            src="/resources/icon.gif"
          ></video>
 
 <div align="center"> <img src="/resources/icon.gif" width="250px" height="250px" /> <h1 align="center">Freedom Launcher</h1> <p align="center"> <strong>A lightweight game launcher with built-in torrent support and customizable UI.</strong> </p> </div>
