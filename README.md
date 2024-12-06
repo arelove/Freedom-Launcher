@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/10cfd89c-5611-4b32-a729-6a8ce008bca2
 
 ### Application in Action
 
-<img src="/resources/fullFreedom.gif"/> 
+https://github.com/user-attachments/assets/0448444b-840b-43cd-97d4-0759228b65e0
 
 ---
 
