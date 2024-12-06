@@ -21,13 +21,11 @@ Freedom Launcher — это удобный и кастомизируемый л�
 
 ### Главный экран
 
-> ![Главный экран](./resources/Freedom.gif)
->
+https://github.com/user-attachments/assets/10cfd89c-5611-4b32-a729-6a8ce008bca2
 
 ### Видео работы приложения
 
-> ![Демонстрация работы](./resources/fullFreedom.gif)
-> 
+https://github.com/user-attachments/assets/0448444b-840b-43cd-97d4-0759228b65e0
 
 ---
 
