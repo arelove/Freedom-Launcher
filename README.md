@@ -1,6 +1,6 @@
 
 
-<div align="center"> <img src="/resources/icon.gif" width="250px" height="250px"  loop autoplay/> <h1 align="center">Freedom Launcher</h1> <p align="center"> <strong>A lightweight game launcher with built-in torrent support and customizable UI.</strong> </p> </div>
+<div align="center"> <img src="/resources/icon.gif" width="250px" height="250px" /> <h1 align="center">Freedom Launcher</h1> <p align="center"> <strong>A lightweight game launcher with built-in torrent support and customizable UI.</strong> </p> </div>
 
 ---
 
