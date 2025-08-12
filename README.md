@@ -8,6 +8,7 @@
 Freedom Launcher is a convenient and customizable launcher for games and applications, developed using **Tauri**, **React**, and **Rust**.  
 The app allows users to efficiently manage games, customize the appearance, modify the interface, and utilize localization features.
 
+![Main Window](resources/Main.png)
 ---
 
 ## 📸 Interface Example
